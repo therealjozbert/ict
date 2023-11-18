@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+ 
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      overflow-x: hidden;
+    }
+
+    header {   
+      color: #c507eb;
+      padding: 0;
+      text-align: center;
+    }
+    nav {
+            background-color: #ddd;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+    main {
+      padding: 0;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      border-bottom: 1px solid #333;
+      padding-bottom: 5px;
+    }
+
+    .video-container {
+      display: flex;
+      overflow-x: auto;
+    }
+    .video{
+      width: 300px;
+      height: 168.75px;
+    }
+
+    .video-card {
+      margin-right: 40px;
+      max-width: 300px;
+    }
+
+    .pdf-container {
+      display: flex;
+      overflow-x: auto;
+      align-items: center;
+    }
+    img{
+      width: 180px;
+      height: 200px;
+      align-items: center;
+      
+    }
+
+    .pdf-card {
+      margin-right: 20px;
+      max-width: 300px;
+    }
+    body {
+      background-color:#8fc6c1;
+      color: #070707; 
+  background-size: cover;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5%;
+        }
+
+footer {
+          background-color: #dd8e2e;
+          color: #101010;
+          padding: 0;
+          margin: 0;
+          text-align: center;
+        }
+      
+    
+        .footer-columns {
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+        }
+    
+        .footer-column {
+          flex: 1;
+          margin: 0 10px;
+        }
+    
+        .social-media-icons {
+          display: flex;
+          justify-content: center;
+          margin-top: 20px;
+        }
+    
+        .social-media-icon {
+          margin: 0 10px;
+        }
+        .social-media-icon img{
+          width: 30px;
+          height: 30px;
+        }
+        .contact-info {
+          margin-top: 30px;
+        
+        }
+      
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LEARN WITH ICT KNOWLEDGE</h1>
+  </header>
+  <nav>
+    <a href="home.html">HOME</a>
+    <a href="products.html">LIBRARY</a>
+    <a href="store.html">STORE</a>
+    <a href="aboutus.html">ABOUT US</a>     
+</nav>
+  <main>
+    
+    <!-- Video Section -->
+    <section>
+      <h2>TUTORIALS</h2>
+      <div class="video-container">
+        <div class="video-card">
+        <div class="video">
+          <h3>ETHICAL HACKING</h3>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3FNYvj2U0HM?si=Bd2_PeD_tK0gkVfX" title="YouTube video player" frameborder="0" allow="accelerometer; 
+          autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <h4>PART 1</h4>
+      </div>
+        <div class="video-card">
+          <div class="video">
+          <h3>ETHICAL HACKING</h3>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/sH4JCwjybGs?si=Ulv2OvM9-GEKiJFS" title="YouTube video player" frameborder="0" allow="accelerometer; 
+          autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <h4>PART 2</h4>
+      </div>
+      
+
+        <div class="video-card">
+          <div class="video">
+          <h3>PROGRAMMING FULL</h3>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/nLRL_NcnK-4?si=OyqL7owelT2VUcrH" title="YouTube video player" frameborder="0" allow="accelerometer; 
+          autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+         <h4>CS 50</h4>
+      </div>
+        <div class="video-card">
+          <div class="video">
+          <h3>ARTIFICIAL INTELLIGENCE
+          </h3>        
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5NgNicANyqM?si=vaVZHG4DKheZoDqq" title="YouTube video player" frameborder="0" allow="accelerometer;
+           autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <h4>CS 50</h4>
+      </div>
+    </section>
+
+    <!-- PDF Section -->
+    <section>
+      <h2>BOOKS</h2>
+      <div class="pdf-container">
+        <div class="pdf-card">
+          <h3>MACHINE LEARNING</h3>
+          <a href="pdf/ai1.pdf" target="_blank">
+            <img src="images.AI1.jpeg" alt="PDF Cover 1" style="max-width: 100%;">
+          </a>
+          <p><a href="pdf.ai1.pdf" download>Read</a></p>
+        </div>
+        <div class="pdf-card">
+          <h3>PYTHON PROGRAMMING</h3>
+          <a href="pdf/py2.pdf" target="_blank">
+            <img src="images.OIP.jpeg" alt="PDF Cover 2" style="max-width: 100%;">
+          </a>
+          <p><a href="pdf.py2.pdf" download>Read</a></p>
+        </div>
+        <div class="pdf-card">
+          <h3>PYTHON PROGRAMMING</h3>
+          <a href="pdf/Py3.pdf" target="_blank">
+            <img src="images.19000.png" alt="PDF Cover 2" style="max-width: 100%;">
+          </a>
+          <p><a href="pdf.Py3.pdf" download>Read</a></p>
+        </div>
+        <div class="pdf-card">
+          <h3>ETHICAL HACKING</h3>
+          <a href="pdf/ethi1.pdf" target="_blank">
+            <img src="images.eth.png" alt="PDF Cover 2" style="max-width: 100%;">
+          </a>
+          <p><a href="pdf.ethi1.pdf" download>Read</a></p>
+        </div>
+        
+        <!-- Add more PDF cards as needed -->
+      </div>
+    </section>
+  </main>
+  <section id="footer">
+    <footer>
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h5><a href="terms.html" target="_blank">Terms & Conditions</a></h5>
+          <p>Our terms and conditions.</p>
+        </div>
+  
+        <div class="footer-column">
+          <h5><a href="policy.html" target="_blank">Privacy Policy</a></h5>
+          <p>Our privacy policy.</p>
+        </div>
+        <div class="footer-column">
+          <h5><a href="support.html" target="_blank">Customer Support</a></h5>
+          <p>Get help</p>
+        </div>
+        <div class="footer-column">
+          <h5><a href="faq.html" target="_blank">FAQs</a></h5>
+          <p>Frequently asked questions.</p>
+        </div>
+        
+        
+        
+      </div>
+     
+      <div class="social-media-icons">
+        
+        <h5>Follow Us</h5>
+        <div class="social-media-icons">
+          <div class="social-media-icon">
+            <a href="https://instagram.com/therealjozbert?igshid=MzNlNGNkZWQ4Mg==" target="_blank">
+              <img src="images.in.webp" alt="Social Icon 1">
+            </a>
+          </div>
+          <div class="social-media-icon">
+            <a href="https://wa.me/message/UOG7D2OHSV6UA1" target="_blank">
+              <img src="images.whatsapp.png" alt="Social Icon 2">
+            </a>
+          </div>
+          <div class="social-media-icon">
+            <a href="https://t.me/social_mediabuy" target="_blank">
+              <img src="images.telegram.png" alt="Social Icon 2">
+            </a>
+          </div>
+          <div class="social-media-icon">
+            <a href="https://www.example.com/twitter" target="_blank">
+              <img src="images/twitter.png" alt="Social Icon 2">
+            </a>
+          </div>
+        <!-- Add more social media icons as needed -->
+      <div class="footer-column">
+        <h3>Copyright</h3>
+        <p>&copy; 2023 ICT Knowledge.All Rights Reserved|Powered by Jozbert James</p>
+      </div>
+    </footer>
+  </body>
+  </html>
+
+ 
+
+
+

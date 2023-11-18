@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notes slider</title>
+    <style>
+         body {
+            font-family:  Georgia, 'Times New Roman', Times, serif;
+            background-color: #ae8e8e;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        
+         header {
+             background-color: #ae8e8e;
+             color: #d5c8c8;
+             text-align: center;
+             padding: 0;
+         }
+             nav {
+            background-color: #ddd;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .container{
+            padding: 2rem;
+        } 
+        .slider-wrapper{
+            position: relative;
+            max-width: 48rem;
+            margin: 0 auto;
+        }
+        .slider{
+            display: flex;
+            aspect-ratio: 16/11;
+            overflow-x: hidden;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
+            border-radius: 0.5rem;
+        }
+        .slider img {
+            flex: 1 0 100%;
+            aspect-ratio: 16/11;
+        }
+        .slider-nav{
+            display: flex;
+            column-gap: 1rem;
+            position: absolute;
+            bottom: 1.25rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+        .slider-nav a{
+            width: 0.5rem;
+            height: 0.5rem;
+            border-radius: 50%;
+            background-color: #ffff;
+            opacity: 0.75;
+            transition: opacity ease 250ms;
+        }
+        .slider-nav a:hover{
+            opacity: 1;
+        }
+    </style>
+</head>
+<nav>
+    <a href="index.html">HOME</a>
+    <a href="products.html">LIBRARY</a>
+    <a href="store.html">STORE</a>
+    <a href="aboutus.html">ABOUT US</a>     
+  </nav>
+<header>
+    <h1>ARTIFICIAL INTELLIGENCE</h1>
+    <P>study with@ict knowledge</P>
+</header>
+<section class="container">
+    <div class="slider-wrapper">
+        <div class="slider">
+            <img id="slide-1" src="images.NO.jpg" alt="name of the content" />
+            <img id="slide-1" src="htttps.image link" alt="name of the content" />
+            <img id="slide-1" src="htttps.image link" alt="name of the content" />
+            <img id="slide-1" src="htttps.image link" alt="name of the content" />
+            <img id="slide-1" src="htttps.image link" alt="name of the content" />
+        </div>
+        <div class="slider-nav">
+                <a href="#slider-1"></a>
+                <a href="#slider-2"></a>
+                <a href="#lider-3"></a>
+                <a href="#slider-4"></a>
+                <a href="#slider-5"></a>
+        </div>
+    </div>
+</section>
